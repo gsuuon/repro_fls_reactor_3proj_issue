@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Component.fs" />
     <Compile Include="Library.fs" />
   </ItemGroup>
 
