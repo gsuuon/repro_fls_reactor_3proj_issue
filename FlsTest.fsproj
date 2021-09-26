@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <WarnOn>3390;$(WarnOn)</WarnOn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Component.fs" />
+    <Compile Include="Library.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="./FirstProject/FirstProject.fsproj" />
+    <ProjectReference Include="./SecondProject/SecondProject.fsproj" />
+    <ProjectReference Include="./ThirdProject/ThirdProject.fsproj" />
+  </ItemGroup>
+</Project>
